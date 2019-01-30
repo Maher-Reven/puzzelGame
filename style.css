@@ -1,0 +1,50 @@
+#div1 {
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid #aaaaaa; */
+  float: left;
+}
+
+.dopable {
+  box-sizing: border-box;
+  border: 2px solid;
+  position: absolute;
+}
+.draggable {
+  /* position: absolute; */
+  background-image: url("https://www.jotform.com/resources/assets/icon/min/jotform-icon-dark-400x400.png");
+  position: absolute;
+}
+
+#new {
+  position: absolute;
+  bottom: 10px;
+}
+
+#winner {
+  width: 20vw;
+  height: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  bottom: 10px;
+  left: 100px;
+  position: absolute;
+}
+
+.container {
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+  position: absolute;
+}
+
+.heading {
+  color: black;
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
